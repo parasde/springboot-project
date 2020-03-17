@@ -1,0 +1,22 @@
+server:
+  servlet:
+    context-path: /project
+  port: 8080
+spring:
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: url
+#    username: user
+#    password: ****
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+  devtools: # 배포 시 주석처리
+    restart:
+      enabled: false
+    livereload:
+      enabled: true
+  jpa:
+    show-sql: true
