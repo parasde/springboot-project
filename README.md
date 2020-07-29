@@ -1,5 +1,5 @@
 # springboot-project
-Springboot web application example
+Springboot application project settings
 
 ### dependencies
  - mysql
@@ -7,3 +7,9 @@ Springboot web application example
  - jpa
  - lombok
  - aspects
+ - query_dsl
+ - swagger
+ - gson
+ - jwt
+ - modelmapper
+ - jasypt
